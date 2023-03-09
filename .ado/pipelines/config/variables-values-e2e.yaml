@@ -17,7 +17,7 @@ variables:
 - name:  'terraformResourceGroup'
   value: 'sutirtha-terraformstate-rg'      # <===== CHANGE THIS VALUE IF NEEDED
 - name:  'terraformStorageAccount'
-  value: '$(prefix)tfstatestore'  # Needs to be a globally unique name
+  value: '$(prefix)tfstatestoresutirtha100'  # Needs to be a globally unique name
 
 # Other settings
 - name:  'contactEmail'
