@@ -15,7 +15,7 @@ variables:
 
 # Terraform state variables
 - name:  'terraformResourceGroup'
-  value: 'sutirtha-terraformstate-rg'      # <===== CHANGE THIS VALUE IF NEEDED
+  value: 'sutirtha-terraformstate-rg-1'      # <===== CHANGE THIS VALUE IF NEEDED
 - name:  'terraformStorageAccount'
   value: '$(prefix)tfstatestoresu47'  # Needs to be a globally unique name
 
